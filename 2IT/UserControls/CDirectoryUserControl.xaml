@@ -1,0 +1,16 @@
+﻿<UserControl x:Class="_2IT.UserControls.CDirectoryUserControl"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:_2IT.UserControls"
+             mc:Ignorable="d" Height="46" Width="545">
+    <Grid>
+        <TextBox x:Name="textBoxPriority" HorizontalAlignment="Left" Height="46" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="45" Padding="1" BorderBrush="Black" FontSize="24" TextAlignment="Center" IsReadOnly="True"/>
+        <TextBox x:Name="textBoxName" HorizontalAlignment="Left" Height="46" Margin="68,0,0,0" TextWrapping="Wrap" Text="Null" VerticalAlignment="Top" Width="477" BorderBrush="Black" IsReadOnly="True"/>
+        <Button x:Name="buttonUp" Content="Up" HorizontalAlignment="Left" VerticalAlignment="Top" Width="23" Height="23" FontSize="7" Margin="45,0,0,0" BorderBrush="Black" Click="ButtonUp_Click"/>
+        <Button x:Name="buttonDown" Content="Down" HorizontalAlignment="Left" VerticalAlignment="Top" Width="23" Height="23" Margin="45,23,0,0" FontSize="7" BorderBrush="Black" Click="ButtonDown_Click"/>
+        <Button x:Name="buttonAdded" Content="+" HorizontalAlignment="Left" Margin="522,0,0,0" VerticalAlignment="Top" Width="23" Height="23" Background="{x:Null}" BorderBrush="{x:Null}" Foreground="#FF00FF17" Click="ButtonAdded_Click"/>
+
+    </Grid>
+</UserControl>

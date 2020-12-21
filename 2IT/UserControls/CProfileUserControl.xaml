@@ -1,0 +1,15 @@
+﻿<UserControl x:Class="_2IT.UserControls.CProfileUserControl"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:_2IT.UserControls"
+             mc:Ignorable="d" Height="26" Width="450">
+    <Grid>
+        <TextBox x:Name="textBoxName" HorizontalAlignment="Left" Height="26" Margin="25,0,0,0" TextWrapping="Wrap" Text="Null" VerticalAlignment="Top" Width="375" IsReadOnly="True" BorderBrush="Black"/>
+        <TextBox x:Name="textBoxFaculty" HorizontalAlignment="Left" Height="26" Margin="400,0,0,0" TextWrapping="Wrap" Text="Null" VerticalAlignment="Top" Width="50" IsReadOnly="True" TextAlignment="Center" BorderBrush="Black"/>
+        <Button x:Name="buttonUp" Content="Up" HorizontalAlignment="Left" VerticalAlignment="Top" Width="25" Height="13" FontSize="7" BorderBrush="Black" Click="ButtonUp_Click"/>
+        <Button x:Name="buttonDown" Content="Down" HorizontalAlignment="Left" VerticalAlignment="Top" Width="25" Height="13" Margin="0,13,0,0" FontSize="7" BorderBrush="Black" Click="ButtonDown_Click"/>
+
+    </Grid>
+</UserControl>

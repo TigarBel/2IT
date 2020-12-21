@@ -1,0 +1,19 @@
+﻿<Window
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:_2IT"
+        xmlns:UserControls="clr-namespace:_2IT.UserControls" x:Class="_2IT.Main"
+        mc:Ignorable="d"
+        Title="Test2IT" Height="450" Width="800" ResizeMode="NoResize">
+    <Grid>
+        <Label x:Name="labelDirection" Content="Направления" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" Height="40" Width="139" FontSize="20"/>
+        <Label x:Name="labelChoseDirection" Content="Выбранные направления" HorizontalAlignment="Left" Margin="535,10,0,0" VerticalAlignment="Top" Height="40" Width="247" FontSize="20"/>
+        <Button x:Name="buttonSave" Content="Сохранить" HorizontalAlignment="Left" Margin="707,55,0,0" VerticalAlignment="Top" Width="75" Click="ButtonSave_Click"/>
+        <Button x:Name="buttonClear" Content="Очистить" HorizontalAlignment="Left" Margin="611,55,0,0" VerticalAlignment="Top" Width="75" Click="ButtonClear_Click"/>
+        <TextBox x:Name="textBoxName" HorizontalAlignment="Left" Height="20" Margin="469,55,0,0" TextWrapping="Wrap" Text="Имя абитуриента" VerticalAlignment="Top" Width="120" MouseDoubleClick="TextBoxName_MouseDoubleClick"/>
+        <Button x:Name="buttonLoad" Content="Выбрать абитуриента" HorizontalAlignment="Left" Margin="611,391,0,0" VerticalAlignment="Top" Width="173" Click="ButtonLoad_Click"/>
+
+    </Grid>
+</Window>
